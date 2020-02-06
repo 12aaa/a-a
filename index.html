@@ -1,0 +1,338 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, user-scalable=no" /> 
+<title>新视觉实训</title>
+<link rel="stylesheet" href="css/swiper.min.css" />
+<link rel="stylesheet" href="css/webstyle.css" />
+<script src="js/jquery-1.8.2.min.js"></script>
+<script src="js/pubJs.js"></script>
+<script src="js/swiper.min.js"></script>
+</head>
+
+<body>
+
+
+<header class="header">
+	<a href="#" class="logo"><img src="images/logo.png" alt="" /></a>
+    <div class="search">
+    	<form>
+        	<input type="text" class="keyword" name="keyword" placeholder="请输入课程名..."/>
+            <input type="submit" class="btn" value=""/>
+        </form>
+   	</div>
+    <a href="#" class="time">
+    	<i class="icon"></i>
+        学习记录
+    </a>
+</header>
+
+<section class="banner">
+
+	<div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="images/banner1.jpg" /></div>
+            <div class="swiper-slide"><img src="images/banner2.jpg" /></div>
+            <div class="swiper-slide"><img src="images/banner3.jpg" /></div>
+        </div>
+        <!-- 如果需要分页器 -->
+        <div class="swiper-pagination"></div>      
+        
+    </div>
+    
+</section>
+<script>        
+  var mySwiper = new Swiper ('.banner .swiper-container', {
+    
+    loop: true,
+    
+    // 如果需要分页器
+    pagination: {
+      el: '.banner .swiper-pagination',
+	  dynamicBullets:true
+    },
+	
+	autoplay: {
+    	delay: 5000,
+    }
+    
+    
+  })        
+</script>
+
+<section class="course">
+	<a href="#" class="item">
+    	<img src="images/kecheng1.png" />
+        <span>平面设计</span>
+    </a>
+    
+    <a href="#" class="item">
+    	<img src="images/kecheng2.png" />
+        <span>室内设计</span>
+    </a>
+    
+    <a href="#" class="item">
+    	<img src="images/kecheng3.png" />
+        <span>园林景观</span>
+    </a>
+    
+    <a href="#" class="item">
+    	<img src="images/kecheng4.png" />
+        <span>影视后期</span>
+    </a>
+    
+    <a href="#" class="item">
+    	<img src="images/kecheng5.png" />
+        <span>机械设计</span>
+    </a>
+</section>
+
+
+
+<section class="news pubCon">
+	<div class="pubTitle">
+    	<h2>新上好课<a href="#">更多</a></h2>  
+    </div>
+    
+    <ul class="nsList">
+        <li>
+            <a href="#">
+                <div class="pic"><img src="images/news1.jpg" /></div>
+                <div class="txt">
+                    <h3>景观施工图项目实例讲解</h3>
+                    <div class="info">
+                        <div class="author"><img src="images/author1.jpg" />陈真老师</div>
+                        <div class="price">￥290</div>
+                    </div>
+                </div>
+            </a>
+        </li>
+        
+        <li>
+            <a href="#">
+                <div class="pic"><img src="images/news2.jpg" /></div>
+                <div class="txt">
+                    <h3>景观施工图项目实例讲解</h3>
+                    <div class="info">
+                        <div class="author"><img src="images/author2.jpg" />任思旻老师</div>
+                        <div class="price">￥298</div>
+                    </div>
+                </div>
+            </a>
+        </li>
+        
+        
+        <li>
+            <a href="#">
+                <div class="pic"><img src="images/news3.jpg" /></div>
+                <div class="txt">
+                    <h3>景观施工图项目实例讲解</h3>
+                    <div class="info">
+                        <div class="author"><img src="images/author3.jpg" />杨举聪老师</div>
+                        <div class="price">￥270</div>
+                    </div>
+                </div>
+            </a>
+        </li>
+        
+        <li>
+            <a href="#">
+                <div class="pic"><img src="images/news4.jpg" /></div>
+                <div class="txt">
+                    <h3>景观施工图项目实例讲解</h3>
+                    <div class="info">
+                        <div class="author"><img src="images/author4.jpg" />韩文强老师</div>
+                        <div class="price">￥360</div>
+                    </div>
+                </div>
+            </a>
+        </li>
+    </ul>     
+    
+</section>
+
+
+
+<section class="selected pubCon">
+	<div class="pubTitle">
+    	<h2>精选推荐<a href="#">更多</a></h2>
+    </div>
+    
+    <ul class="seList">
+    	<li>
+        	<a href="#">
+            	<div class="pic">
+                	<img src="images/selected1.jpg" />
+                </div>
+                <div class="txt">
+                	<h3>Photoshop CS6零基础入门教程</h3>
+                    <div class="info">田婧  ·  13课时  ·  2025人已学</div>
+                    <div class="price">￥360</div>
+                </div>
+            </a>
+        </li>
+        
+        <li>
+        	<a href="#">
+            	<div class="pic">
+                	<img src="images/selected2.jpg" />
+                </div>
+                <div class="txt">
+                	<h3>3ds Max基础入门教程</h3>
+                    <div class="info">吴勇  ·  7.4课时  ·  3135人已学</div>
+                    <div class="price">￥150</div>
+                </div>
+            </a>
+        </li>
+        
+        
+        <li>
+        	<a href="#">
+            	<div class="pic">
+                	<img src="images/selected3.jpg" />
+                </div>
+                <div class="txt">
+                	<h3>3ds MAX园林景观效果图系统教程高级篇</h3>
+                    <div class="info">邓智珲  ·  10.2课时  ·  1505人已学</div>
+                    <div class="price">￥390</div>
+                </div>
+            </a>
+        </li>
+        
+        
+        <li>
+        	<a href="#">
+            	<div class="pic">
+                	<img src="images/selected4.jpg" />
+                </div>
+                <div class="txt">
+                	<h3>3ds Max+ZBrush次世代高精模型制作教程</h3>
+                    <div class="info">陈曦昱  ·  50课时  ·  2105人已学</div>
+                    <div class="price">￥380</div>
+                </div>
+            </a>
+        </li>
+    </ul>
+</section>
+
+
+<section class="student pubCon">
+	<div class="pubTitle">
+    	<h2>学员感言<a href="#">更多</a></h2>
+    </div>
+    <ul class="stuList">
+    	<li>
+        	<a href="#">
+            	<dl>
+                	<dt>
+                    	<img src="images/stu1.jpg" />
+                    </dt>
+                    <dd>
+                    	<h4>惜言赋语<span>02/06 15:31</span></h4>
+                        <p>我现在是一名大二的学生，学的是机电专业。本以为这个专业应该会有许多实际操作的机会，但在大学读了近两年了，老师从来不讲和我们...</p>
+                    </dd>
+                </dl>
+            </a>
+        </li>
+        
+        
+        <li>
+        	<a href="#">
+            	<dl>
+                	<dt>
+                    	<img src="images/stu2.jpg" />
+                    </dt>
+                    <dd>
+                    	<h4>执笔续写承诺<span>02/06 10:22</span></h4>
+                        <p>我是一个刚刚从事景观行业的设计师，刚刚接触这个行业我的基础很弱，为此我苦恼了很久，之前也看过了很多网站的视频，但是讲解的都...</p>
+                    </dd>
+                </dl>
+            </a>
+        </li>
+        
+        
+        <li>
+        	<a href="#">
+            	<dl>
+                	<dt>
+                    	<img src="images/stu3.jpg" />
+                    </dt>
+                    <dd>
+                    	<h4>碧海蓝天1314   <span>02/01 22:12</span></h4>
+                        <p>非常感谢新视觉实训网，让我学到了很多有用的技能。</p>
+                    </dd>
+                </dl>
+            </a>
+        </li>
+        
+        
+        <li>
+        	<a href="#">
+            	<dl>
+                	<dt>
+                    	<img src="images/stu4.jpg" />
+                    </dt>
+                    <dd>
+                    	<h4>惜言赋语<span>02/06 15:31</span></h4>
+                        <p>我是一个刚刚从事景观行业的设计师，刚刚接触这个行业我的基础很弱，为此我苦恼了很久，之前也看过了很多网站的视频，但是讲解的都...</p>
+                    </dd>
+                </dl>
+            </a>
+        </li>
+    </ul>
+    
+    
+    
+    <ul class="perList">
+    
+    
+    </ul>
+    
+    
+    
+    
+    
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+<nav class="ftNav">
+	<ul>
+    	<li class="active">
+        	<a href="index.html">
+            	<i></i>
+                <span>首页</span>
+            </a>
+        </li>
+        
+        <li>
+        	<a href="course.html">
+            	<i></i>
+                <span>课程分类</span>
+            </a>
+        </li>
+        
+        
+        <li>
+        	<a href="personal.html">
+            	<i></i>
+                <span>我的</span>
+            </a>
+        </li>
+    </ul>
+</nav>
+
+
+
+</body>
+</html>
